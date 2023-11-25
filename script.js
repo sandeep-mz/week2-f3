@@ -2,7 +2,9 @@ const submitButton = document.querySelector(".submit");
 if(localStorage.getItem('userData')!==null){
   alert("Already logged in!")
   window.location.href = "https://sandeep-mz.github.io//week2-f3/sign-in.html";
-}
+} 
+
+//validation 
 submitButton.addEventListener("click", (event) => {
   const nameValue = document.getElementById("name").value;
   const emailValue = document.getElementById("email").value;
@@ -31,6 +33,7 @@ submitButton.addEventListener("click", (event) => {
   }
 });
 
+// for ticket generation
 function generateAccessToken(){
   let token = '';
   const keys = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz123456789!@#$%^&*()";
@@ -40,6 +43,8 @@ function generateAccessToken(){
   console.log(token);
   return token
 }
+
+// for visivility 
 const eye = document.getElementById("eye");
 const passwordInput = document.getElementById("password");
 eye.addEventListener("click", () => {
