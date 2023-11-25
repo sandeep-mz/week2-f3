@@ -28,6 +28,15 @@ h2{
     line-height: 4.6vh;
     font-size: sans-serif;
 }
+.container{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* background styling */
+ 
+
 .success{
     position: absolute;
     z-index: 100;
