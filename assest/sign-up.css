@@ -51,7 +51,7 @@ h2{
     overflow: hidden;
     height: 100%;
     box-sizing: border-box;
-    background: blueviolet;
+    background: rgb(179, 144, 212);
 }
 .line-1{
     z-index: 15;
