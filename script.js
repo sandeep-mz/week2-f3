@@ -1,7 +1,7 @@
 const submitButton = document.querySelector(".submit");
 if(localStorage.getItem('userData')!==null){
   alert("Already logged in!")
-  window.location.href = "https://amir0707k.github.io/Signup-portal/sign-in-succesful.html";
+  window.location.href = "https://sandeep-mz.github.io//week2-f3/sign-in.html";
 }
 submitButton.addEventListener("click", (event) => {
   const nameValue = document.getElementById("name").value;
@@ -27,7 +27,7 @@ submitButton.addEventListener("click", (event) => {
         token:token
     }
     localStorage.setItem("userData",JSON.stringify(userData))
-    window.location.href = "https://amir0707k.github.io/Signup-portal/sign-in-succesful.html"
+    window.location.href = "https://sandeep-mz.github.io//week2-f3/sign-in.html"
   }
 });
 

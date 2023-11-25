@@ -1,7 +1,7 @@
 let userData = {};
 if (!localStorage.getItem("userData")) {
   alert("You need to sign up!");
-  window.location.href = "https://amir0707k.github.io/Signup-portal/index.html";
+  window.location.href = "https://sandeep-mz.github.io//week2-f3/index.html";
 }
 userData = JSON.parse(localStorage.getItem("userData"));
 console.log(userData);
