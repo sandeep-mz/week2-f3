@@ -2,6 +2,9 @@
 
 ## Project Overview
 
+![Screenshot 2023-11-25 141111](https://github.com/sandeep-mz/week2-f3/assets/108665091/b83bd213-86db-4c8d-b561-971d2e59f5f6)
+
+
 This project implements a User Authentication system utilizing local storage. It comprises two main pages: "Signup" and "Profile."
 
 ### Features
